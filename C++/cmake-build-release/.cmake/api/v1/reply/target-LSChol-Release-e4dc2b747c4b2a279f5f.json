@@ -1,0 +1,187 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libLSChol.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"Preconditioners/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu++17 -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-fopenmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "LSChol_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/jason/DPGO/SE-Sync/C++/Preconditioners"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/suitesparse"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/LSChol/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"id" : "LSChol::@495d47b1b13c951a8715",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fopenmp",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lblas",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lf77blas",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latlas",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lspqr",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcholmod",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcholmod",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "LSChol",
+	"nameOnDisk" : "libLSChol.so",
+	"paths" : 
+	{
+		"build" : "Preconditioners",
+		"source" : "Preconditioners"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Preconditioners/Preconditioners/Types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Preconditioners/Preconditioners/LSChol/include/LSChol/LSChol.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Preconditioners/Preconditioners/LSChol/src/LSChol.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

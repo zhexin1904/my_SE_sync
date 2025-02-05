@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Optimization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Pangolin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Pangolin/external/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Pangolin/external/pybind11/tools/clang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Preconditioners" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MATLAB/SE-Sync/manopt" vcs="Git" />
+  </component>
+</project>
