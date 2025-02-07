@@ -33,7 +33,7 @@ set(ENABLE_PROFILING OFF CACHE BOOL "Enable code profiling using gperftools")
 # Enable visualization module.
 set(ENABLE_VISUALIZATION ON CACHE BOOL "Enable visualization module.")
 # Build Python bindings
-set(BUILD_PYTHON_BINDINGS OFF CACHE BOOL "Build Python bindings.")
+set(BUILD_PYTHON_BINDINGS ON CACHE BOOL "Build Python bindings.")
 
 # Add the .cmake files that ship with Eigen3 to the CMake module path (useful for finding other stuff)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake" CACHE STRING "The CMake module path used for this project")
