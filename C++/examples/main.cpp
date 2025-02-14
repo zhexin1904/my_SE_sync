@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
 
   SESyncOpts opts;
   opts.verbose = true; // Print output to stdout
-  opts.r0  = 5;
+  opts.r0  = 4;
 
   // Initialization method
   // Options are:  Chordal, Random
