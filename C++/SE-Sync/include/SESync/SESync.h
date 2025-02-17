@@ -266,6 +266,10 @@ struct SESyncResult {
 
   /** The termination status of the SE-Sync algorithm */
   SESyncStatus status;
+
+    // Riemannian staricase level used, i.e, all the rank we used
+    std::vector<size_t> rank_iters;
+
 };
 
 /** Given an SESyncProblem instance, this function performs synchronization */

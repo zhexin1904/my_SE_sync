@@ -63,4 +63,10 @@ int main(int argc, char **argv) {
     poses_file << results.xhat;
     poses_file.close();
   }
+
+  std::for_each(results.rank_iters.begin(), results.rank_iters.end(), [](size_t val) {
+      std::cout << val << " ";
+  });
+  std::cout << std::endl;
+
 }

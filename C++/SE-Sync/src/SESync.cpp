@@ -281,6 +281,8 @@ SESyncResult SESync(SESyncProblem &problem, const SESyncOpts &options,
   for (size_t r = options.r0; r <= options.rmax; r++) {
     // The elapsed time from the start of the Riemannian Staircase algorithm
     // until the start of this iteration of RTR
+    sesync_result.rank_iters.push_back(r);
+
     double RTR_iteration_start_time =
         Stopwatch::tock(riemannian_staircase_start_time);
 

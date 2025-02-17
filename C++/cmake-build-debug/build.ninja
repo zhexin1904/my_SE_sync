@@ -56,8 +56,6 @@ build CMakeFiles/SESync.dir/SE-Sync/src/StiefelProduct.cpp.o: CXX_COMPILER__SESy
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = CMakeFiles/SESync.dir
   OBJECT_FILE_DIR = CMakeFiles/SESync.dir/SE-Sync/src
-  TARGET_COMPILE_PDB = CMakeFiles/SESync.dir/
-  TARGET_PDB = lib/libSESync.pdb
 
 build CMakeFiles/SESync.dir/SE-Sync/src/SESync_utils.cpp.o: CXX_COMPILER__SESync_unscanned_Debug /home/jason/DPGO/SE-Sync/C++/SE-Sync/src/SESync_utils.cpp || cmake_object_order_depends_target_SESync
   DEFINES = -DSESync_EXPORTS
@@ -66,8 +64,6 @@ build CMakeFiles/SESync.dir/SE-Sync/src/SESync_utils.cpp.o: CXX_COMPILER__SESync
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = CMakeFiles/SESync.dir
   OBJECT_FILE_DIR = CMakeFiles/SESync.dir/SE-Sync/src
-  TARGET_COMPILE_PDB = CMakeFiles/SESync.dir/
-  TARGET_PDB = lib/libSESync.pdb
 
 build CMakeFiles/SESync.dir/SE-Sync/src/SESyncProblem.cpp.o: CXX_COMPILER__SESync_unscanned_Debug /home/jason/DPGO/SE-Sync/C++/SE-Sync/src/SESyncProblem.cpp || cmake_object_order_depends_target_SESync
   DEFINES = -DSESync_EXPORTS
@@ -76,8 +72,6 @@ build CMakeFiles/SESync.dir/SE-Sync/src/SESyncProblem.cpp.o: CXX_COMPILER__SESyn
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = CMakeFiles/SESync.dir
   OBJECT_FILE_DIR = CMakeFiles/SESync.dir/SE-Sync/src
-  TARGET_COMPILE_PDB = CMakeFiles/SESync.dir/
-  TARGET_PDB = lib/libSESync.pdb
 
 build CMakeFiles/SESync.dir/SE-Sync/src/SESync.cpp.o: CXX_COMPILER__SESync_unscanned_Debug /home/jason/DPGO/SE-Sync/C++/SE-Sync/src/SESync.cpp || cmake_object_order_depends_target_SESync
   DEFINES = -DSESync_EXPORTS
@@ -86,8 +80,6 @@ build CMakeFiles/SESync.dir/SE-Sync/src/SESync.cpp.o: CXX_COMPILER__SESync_unsca
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = CMakeFiles/SESync.dir
   OBJECT_FILE_DIR = CMakeFiles/SESync.dir/SE-Sync/src
-  TARGET_COMPILE_PDB = CMakeFiles/SESync.dir/
-  TARGET_PDB = lib/libSESync.pdb
 
 
 # =============================================================================
@@ -106,9 +98,8 @@ build lib/libSESync.so: CXX_SHARED_LIBRARY_LINKER__SESync_Debug CMakeFiles/SESyn
   PRE_LINK = :
   SONAME = libSESync.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = CMakeFiles/SESync.dir/
   TARGET_FILE = lib/libSESync.so
-  TARGET_PDB = lib/libSESync.pdb
+  TARGET_PDB = SESync.so.dbg
 
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target SESyncViz
@@ -126,8 +117,6 @@ build CMakeFiles/SESyncViz.dir/SE-Sync/src/SESyncVisualizer.cpp.o: CXX_COMPILER_
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include -isystem /home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -isystem /usr/include/eigen3
   OBJECT_DIR = CMakeFiles/SESyncViz.dir
   OBJECT_FILE_DIR = CMakeFiles/SESyncViz.dir/SE-Sync/src
-  TARGET_COMPILE_PDB = CMakeFiles/SESyncViz.dir/
-  TARGET_PDB = lib/libSESyncViz.pdb
 
 
 # =============================================================================
@@ -145,16 +134,49 @@ build lib/libSESyncViz.so: CXX_SHARED_LIBRARY_LINKER__SESyncViz_Debug CMakeFiles
   PRE_LINK = :
   SONAME = libSESyncViz.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = CMakeFiles/SESyncViz.dir/
   TARGET_FILE = lib/libSESyncViz.so
-  TARGET_PDB = lib/libSESyncViz.pdb
+  TARGET_PDB = SESyncViz.so.dbg
+
+# =============================================================================
+# Object build statements for MODULE_LIBRARY target PySESync
+
+
+#############################################
+# Order-only phony target for PySESync
+
+build cmake_object_order_depends_target_PySESync: phony || cmake_object_order_depends_target_ILDL cmake_object_order_depends_target_SESync
+
+build CMakeFiles/PySESync.dir/SE-Sync/src/PySESync.cpp.o: CXX_COMPILER__PySESync_unscanned_Debug /home/jason/DPGO/SE-Sync/C++/SE-Sync/src/PySESync.cpp || cmake_object_order_depends_target_PySESync
+  DEFINES = -DPySESync_EXPORTS
+  DEP_FILE = CMakeFiles/PySESync.dir/SE-Sync/src/PySESync.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fPIC -fvisibility=hidden -fdiagnostics-color=always
+  INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include -isystem /usr/include/python3.8
+  OBJECT_DIR = CMakeFiles/PySESync.dir
+  OBJECT_FILE_DIR = CMakeFiles/PySESync.dir/SE-Sync/src
+
+
+# =============================================================================
+# Link build statements for MODULE_LIBRARY target PySESync
+
+
+#############################################
+# Link the shared module /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so
+
+build /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so: CXX_MODULE_LIBRARY_LINKER__PySESync_Debug CMakeFiles/PySESync.dir/SE-Sync/src/PySESync.cpp.o | lib/libSESync.so lib/libILDL.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so /usr/lib/x86_64-linux-gnu/libspqr.so /usr/lib/x86_64-linux-gnu/libcholmod.so || lib/libILDL.so lib/libSESync.so
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/jason/DPGO/SE-Sync/C++/cmake-build-debug/lib  lib/libSESync.so  lib/libILDL.so  /usr/lib/x86_64-linux-gnu/libblas.so  /usr/lib/x86_64-linux-gnu/libf77blas.so  /usr/lib/x86_64-linux-gnu/libatlas.so  /usr/lib/x86_64-linux-gnu/libspqr.so  /usr/lib/x86_64-linux-gnu/libcholmod.so
+  OBJECT_DIR = CMakeFiles/PySESync.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so
+  TARGET_PDB = PySESync.cpython-38-x86_64-linux-gnu.so.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug && /snap/clion/314/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug && /snap/clion/322/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -165,7 +187,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug && /snap/clion/314/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug && /snap/clion/322/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -182,7 +204,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build Optimization/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Optimization && /snap/clion/314/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Optimization && /snap/clion/322/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -193,7 +215,7 @@ build Optimization/edit_cache: phony Optimization/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build Optimization/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Optimization && /snap/clion/314/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Optimization && /snap/clion/322/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -221,8 +243,6 @@ build Preconditioners/CMakeFiles/ILDL.dir/Preconditioners/ILDL/src/ILDL_utils.cp
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include -I/usr/include/eigen3
   OBJECT_DIR = Preconditioners/CMakeFiles/ILDL.dir
   OBJECT_FILE_DIR = Preconditioners/CMakeFiles/ILDL.dir/Preconditioners/ILDL/src
-  TARGET_COMPILE_PDB = Preconditioners/CMakeFiles/ILDL.dir/
-  TARGET_PDB = lib/libILDL.pdb
 
 build Preconditioners/CMakeFiles/ILDL.dir/Preconditioners/ILDL/src/ILDL.cpp.o: CXX_COMPILER__ILDL_unscanned_Debug /home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/src/ILDL.cpp || cmake_object_order_depends_target_ILDL
   DEFINES = -DILDL_EXPORTS
@@ -231,8 +251,6 @@ build Preconditioners/CMakeFiles/ILDL.dir/Preconditioners/ILDL/src/ILDL.cpp.o: C
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include -I/usr/include/eigen3
   OBJECT_DIR = Preconditioners/CMakeFiles/ILDL.dir
   OBJECT_FILE_DIR = Preconditioners/CMakeFiles/ILDL.dir/Preconditioners/ILDL/src
-  TARGET_COMPILE_PDB = Preconditioners/CMakeFiles/ILDL.dir/
-  TARGET_PDB = lib/libILDL.pdb
 
 
 # =============================================================================
@@ -250,9 +268,8 @@ build lib/libILDL.so: CXX_SHARED_LIBRARY_LINKER__ILDL_Debug Preconditioners/CMak
   PRE_LINK = :
   SONAME = libILDL.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = Preconditioners/CMakeFiles/ILDL.dir/
   TARGET_FILE = lib/libILDL.so
-  TARGET_PDB = lib/libILDL.pdb
+  TARGET_PDB = ILDL.so.dbg
 
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target LSChol
@@ -270,8 +287,6 @@ build Preconditioners/CMakeFiles/LSChol.dir/Preconditioners/LSChol/src/LSChol.cp
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/LSChol/include
   OBJECT_DIR = Preconditioners/CMakeFiles/LSChol.dir
   OBJECT_FILE_DIR = Preconditioners/CMakeFiles/LSChol.dir/Preconditioners/LSChol/src
-  TARGET_COMPILE_PDB = Preconditioners/CMakeFiles/LSChol.dir/
-  TARGET_PDB = lib/libLSChol.pdb
 
 
 # =============================================================================
@@ -290,16 +305,15 @@ build lib/libLSChol.so: CXX_SHARED_LIBRARY_LINKER__LSChol_Debug Preconditioners/
   PRE_LINK = :
   SONAME = libLSChol.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = Preconditioners/CMakeFiles/LSChol.dir/
   TARGET_FILE = lib/libLSChol.so
-  TARGET_PDB = lib/libLSChol.pdb
+  TARGET_PDB = LSChol.so.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build Preconditioners/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Preconditioners && /snap/clion/314/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Preconditioners && /snap/clion/322/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -310,7 +324,7 @@ build Preconditioners/edit_cache: phony Preconditioners/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build Preconditioners/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Preconditioners && /snap/clion/314/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/Preconditioners && /snap/clion/322/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -337,8 +351,6 @@ build examples/CMakeFiles/SE-Sync.dir/main.cpp.o: CXX_COMPILER__SE-Sync_unscanne
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = examples/CMakeFiles/SE-Sync.dir
   OBJECT_FILE_DIR = examples/CMakeFiles/SE-Sync.dir
-  TARGET_COMPILE_PDB = examples/CMakeFiles/SE-Sync.dir/
-  TARGET_PDB = bin/SE-Sync.pdb
 
 
 # =============================================================================
@@ -355,9 +367,8 @@ build bin/SE-Sync: CXX_EXECUTABLE_LINKER__SE-Sync_Debug examples/CMakeFiles/SE-S
   OBJECT_DIR = examples/CMakeFiles/SE-Sync.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = examples/CMakeFiles/SE-Sync.dir/
   TARGET_FILE = bin/SE-Sync
-  TARGET_PDB = bin/SE-Sync.pdb
+  TARGET_PDB = SE-Sync.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SE-SyncViz
@@ -374,8 +385,6 @@ build examples/CMakeFiles/SE-SyncViz.dir/mainviz.cpp.o: CXX_COMPILER__SE-SyncViz
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include -isystem /home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -isystem /usr/include/eigen3
   OBJECT_DIR = examples/CMakeFiles/SE-SyncViz.dir
   OBJECT_FILE_DIR = examples/CMakeFiles/SE-SyncViz.dir
-  TARGET_COMPILE_PDB = examples/CMakeFiles/SE-SyncViz.dir/
-  TARGET_PDB = bin/SE-SyncViz.pdb
 
 
 # =============================================================================
@@ -392,9 +401,8 @@ build bin/SE-SyncViz: CXX_EXECUTABLE_LINKER__SE-SyncViz_Debug examples/CMakeFile
   OBJECT_DIR = examples/CMakeFiles/SE-SyncViz.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = examples/CMakeFiles/SE-SyncViz.dir/
   TARGET_FILE = bin/SE-SyncViz
-  TARGET_PDB = bin/SE-SyncViz.pdb
+  TARGET_PDB = SE-SyncViz.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StiefelTest
@@ -411,8 +419,6 @@ build examples/CMakeFiles/StiefelTest.dir/StiefelTest.cpp.o: CXX_COMPILER__Stief
   INCLUDES = -I/home/jason/DPGO/SE-Sync/C++/Pangolin/install/include -I/home/jason/DPGO/SE-Sync/C++/SE-Sync/include -I/usr/include/eigen3 -I/usr/include/suitesparse -I/home/jason/DPGO/SE-Sync/C++/Optimization/include -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/SymILDL/SymILDL -I/home/jason/DPGO/SE-Sync/C++/Preconditioners -I/home/jason/DPGO/SE-Sync/C++/Preconditioners/Preconditioners/ILDL/include
   OBJECT_DIR = examples/CMakeFiles/StiefelTest.dir
   OBJECT_FILE_DIR = examples/CMakeFiles/StiefelTest.dir
-  TARGET_COMPILE_PDB = examples/CMakeFiles/StiefelTest.dir/
-  TARGET_PDB = bin/StiefelTest.pdb
 
 
 # =============================================================================
@@ -429,16 +435,15 @@ build bin/StiefelTest: CXX_EXECUTABLE_LINKER__StiefelTest_Debug examples/CMakeFi
   OBJECT_DIR = examples/CMakeFiles/StiefelTest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = examples/CMakeFiles/StiefelTest.dir/
   TARGET_FILE = bin/StiefelTest
-  TARGET_PDB = bin/StiefelTest.pdb
+  TARGET_PDB = StiefelTest.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build examples/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/examples && /snap/clion/314/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/examples && /snap/clion/322/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -449,7 +454,7 @@ build examples/edit_cache: phony examples/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build examples/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/examples && /snap/clion/314/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
+  COMMAND = cd /home/jason/DPGO/SE-Sync/C++/cmake-build-debug/examples && /snap/clion/322/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/jason/DPGO/SE-Sync/C++ -B/home/jason/DPGO/SE-Sync/C++/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -462,6 +467,10 @@ build examples/rebuild_cache: phony examples/CMakeFiles/rebuild_cache.util
 build ILDL: phony lib/libILDL.so
 
 build LSChol: phony lib/libLSChol.so
+
+build PySESync: phony /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so
+
+build PySESync.cpython-38-x86_64-linux-gnu.so: phony /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so
 
 build SE-Sync: phony bin/SE-Sync
 
@@ -489,7 +498,7 @@ build libSESyncViz.so: phony lib/libSESyncViz.so
 #############################################
 # Folder: /home/jason/DPGO/SE-Sync/C++/cmake-build-debug
 
-build all: phony lib/libSESync.so lib/libSESyncViz.so Optimization/all Preconditioners/all examples/all
+build all: phony lib/libSESync.so lib/libSESyncViz.so /home/jason/.local/lib/python3.8/site-packages/PySESync.cpython-38-x86_64-linux-gnu.so Optimization/all Preconditioners/all examples/all
 
 # =============================================================================
 
@@ -519,14 +528,14 @@ build examples/all: phony bin/SE-Sync bin/SE-SyncViz bin/StiefelTest
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/jason/DPGO/SE-Sync/C++/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Optimization/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets-release.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /home/jason/DPGO/SE-Sync/C++/Preconditioners/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/cmake/FindEigen3.cmake /home/jason/DPGO/SE-Sync/C++/cmake/FindSPQR.cmake /home/jason/DPGO/SE-Sync/C++/examples/CMakeLists.txt /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindBLAS.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenMP.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/jason/DPGO/SE-Sync/C++/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Optimization/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets-release.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /home/jason/DPGO/SE-Sync/C++/Preconditioners/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/cmake/FindEigen3.cmake /home/jason/DPGO/SE-Sync/C++/cmake/FindSPQR.cmake /home/jason/DPGO/SE-Sync/C++/examples/CMakeLists.txt /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindBLAS.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenMP.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPython/Support.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPython3.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/share/cmake/pybind11/pybind11Common.cmake /usr/local/share/cmake/pybind11/pybind11Config.cmake /usr/local/share/cmake/pybind11/pybind11ConfigVersion.cmake /usr/local/share/cmake/pybind11/pybind11NewTools.cmake /usr/local/share/cmake/pybind11/pybind11Targets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/jason/DPGO/SE-Sync/C++/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Optimization/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets-release.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /home/jason/DPGO/SE-Sync/C++/Preconditioners/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/cmake/FindEigen3.cmake /home/jason/DPGO/SE-Sync/C++/cmake/FindSPQR.cmake /home/jason/DPGO/SE-Sync/C++/examples/CMakeLists.txt /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindBLAS.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenMP.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/314/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/jason/DPGO/SE-Sync/C++/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Optimization/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfig.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets-release.cmake /home/jason/DPGO/SE-Sync/C++/Pangolin/install/lib/cmake/Pangolin/PangolinTargets.cmake /home/jason/DPGO/SE-Sync/C++/Preconditioners/CMakeLists.txt /home/jason/DPGO/SE-Sync/C++/cmake/FindEigen3.cmake /home/jason/DPGO/SE-Sync/C++/cmake/FindSPQR.cmake /home/jason/DPGO/SE-Sync/C++/examples/CMakeLists.txt /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindBLAS.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenMP.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPython/Support.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPython3.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/share/cmake/pybind11/pybind11Common.cmake /usr/local/share/cmake/pybind11/pybind11Config.cmake /usr/local/share/cmake/pybind11/pybind11ConfigVersion.cmake /usr/local/share/cmake/pybind11/pybind11NewTools.cmake /usr/local/share/cmake/pybind11/pybind11Targets.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
