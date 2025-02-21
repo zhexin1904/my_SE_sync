@@ -46,13 +46,11 @@ def generate_symmetric_matrix_sum(adj_matrix, sigma):
             B[3*i:3*(i+1), 3*j:3*(j+1)] = B_block
             B[3*j:3*(j+1), 3*i:3*(i+1)] = B_block.T
             sum_B += B @ B.T
-            # print("B @ B.T : ", B @ B.T)
 
     operator_norm = np.linalg.norm(sum_B, ord=2)
+    largest_degree = max(dict(G.degree()).values())
 
-    print("sum_B : ", sum_B)
-
-    return operator_norm
+    return operator_norm, largest_degree
 
 # Function to compute the largest eigenvalue of a matrix
 def compute_largest_eigenvalue(matrix):
@@ -60,17 +58,19 @@ def compute_largest_eigenvalue(matrix):
     return np.max(np.abs(eigenvalues))
 
 # Function to compute theoretical bound
-def theoretical_bound(t, num_nodes, vZ):
-    return (3 * num_nodes + 3 * num_nodes) * np.exp(-t**2 / (2 * vZ))
+def theoretical_bound(t, num_nodes, vZ, kappa, degree):
+    # return (2 * 3 * num_nodes) * np.exp(-t**2 / (8 * kappa * degree))
+    # return (2 * 3 * num_nodes) * np.exp((-kappa * t**2) / (2 * degree))
+    return np.minimum((2 * 3 * num_nodes) * np.exp((-kappa * t**2) / (2 * degree)), 1)
 
 # Function to compute theoretical expectation
-def compute_theoretical_expectation(vZ, num_nodes):
-    return np.sqrt(2 * vZ * np.log(2 * 3 * num_nodes))
+def compute_theoretical_expectation(vZ, num_nodes, kappa, degree):
+    return np.sqrt(2 * (degree/kappa) * np.log(2 * 3 * num_nodes))
 
 # Parameters
-num_nodes_list = [30, 50, 100, 150]  # Different numbers of nodes to test
-sigma_values = [1.0]
-num_trials = 100
+num_nodes_list = [50, 500]  # Different numbers of nodes to test
+sigma_values = [1]
+num_trials = 50
 
 # Run experiments and collect results
 for num_nodes in num_nodes_list:
@@ -82,10 +82,8 @@ for num_nodes in num_nodes_list:
             G = nx.random_geometric_graph(num_nodes, r)
             adj_matrix = nx.adjacency_matrix(G).todense()
 
-            V_z = generate_symmetric_matrix_sum(adj_matrix, sigma)
-
-            print("largest degree : ", max(dict(G.degree()).values()))
-
+            _, degree = generate_symmetric_matrix_sum(adj_matrix, sigma)
+            V_z = degree
             kron_matrix = generate_kron_matrix(adj_matrix, sigma)
             largest_eigenvalue = compute_largest_eigenvalue(kron_matrix)
             results[sigma].append((largest_eigenvalue, V_z))
@@ -93,19 +91,25 @@ for num_nodes in num_nodes_list:
     # Plot empirical distribution of largest eigenvalues
     fig, ax = plt.subplots(figsize=(10, 6))
     for sigma, values in results.items():
+        kappa = 1 / (2 * sigma**2)
+        # kappa = 100
         eigenvalues = [v[0] for v in values]
         V_z = values[0][1]
-        t_values = np.linspace(np.min(eigenvalues), 100, 1000)
-        bound_values = theoretical_bound(t_values, num_nodes, V_z)
-        bound_values /= np.max(bound_values)
+        degree = values[0][1]
+        t_values = np.linspace(0, 100, 1000)
+        bound_values = theoretical_bound(t_values, num_nodes, _ , kappa, degree)
+        # bound_values /= np.max(bound_values)
+        # bound_values = bound_values/100
         empirical_probs = [np.mean(np.array(eigenvalues) >= t) for t in t_values]
         empirical_probs = np.array(empirical_probs) / np.max(empirical_probs)
 
-        theoretical_expectation = compute_theoretical_expectation(V_z, num_nodes)
+        theoretical_expectation = compute_theoretical_expectation(V_z, num_nodes, kappa, degree)
+        empirical_expectation = t_values[np.argmin(np.abs(empirical_probs - 1/np.e))]
 
         ax.plot(t_values, bound_values, label=f'Theoretical Bound (sigma={sigma})', linestyle='dashed')
         ax.plot(t_values, empirical_probs, label=f'Empirical Probability (sigma={sigma})', linestyle='solid')
         ax.axvline(theoretical_expectation, color='r', linestyle='dotted', label=f'Theoretical Expectation (sigma={sigma})')
+        ax.axvline(empirical_expectation, color='g', linestyle='dashdot', label=f'Empirical Expectation (sigma={sigma})')
 
     ax.set_xlabel('Largest Eigenvalue')
     ax.set_ylabel('Probability')
